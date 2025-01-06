@@ -14,6 +14,34 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-01-03 15:12:05</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-06 17:02:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>167ca533833e12103cf0c4b6feaad365</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1593175_raas_media" name="x_1593175_raas_media" sys_domain="global" view="Default view">a96635f2837616103cf0c4b6feaad308</sys_ui_form>
+            <sys_ui_section caption="Rating" display_value="Rating" name="x_1593175_raas_media" sys_domain="global" view="Default view">d27ca533833e12103cf0c4b6feaad362</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-06 17:02:38</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-06 17:02:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9e7ca533833e12103cf0c4b6feaad369</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1593175_raas_media" name="x_1593175_raas_media" sys_domain="global" view="Default view">a96635f2837616103cf0c4b6feaad308</sys_ui_form>
+            <sys_ui_section caption="Language" display_value="Language" name="x_1593175_raas_media" sys_domain="global" view="Default view">de7ca533833e12103cf0c4b6feaad363</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-06 17:02:38</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1593175_raas_media</name>
             <roles/>
