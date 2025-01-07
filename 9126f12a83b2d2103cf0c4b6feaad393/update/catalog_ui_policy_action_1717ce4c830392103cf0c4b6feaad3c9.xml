@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Media Review">e577b97f833e12103cf0c4b6feaad360</catalog_item>
+        <catalog_variable>IO:618cb9f3837e12103cf0c4b6feaad391</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 13:37:42</sys_created_on>
+        <sys_id>1717ce4c830392103cf0c4b6feaad3c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>media</sys_name>
+        <sys_package display_value="RaaS João Ricardo" source="x_1593175_raas">9126f12a83b2d2103cf0c4b6feaad393</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS João Ricardo">9126f12a83b2d2103cf0c4b6feaad393</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_1717ce4c830392103cf0c4b6feaad3c9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 13:37:42</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Mandatory Fields">6be6ca4c830392103cf0c4b6feaad38a</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>media</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=1717ce4c830392103cf0c4b6feaad3c9"/>
+</record_update>
