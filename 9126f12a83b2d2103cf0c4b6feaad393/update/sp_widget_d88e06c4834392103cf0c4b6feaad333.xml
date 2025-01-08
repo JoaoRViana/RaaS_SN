@@ -40,18 +40,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-07 14:10:22</sys_created_on>
         <sys_id>d88e06c4834392103cf0c4b6feaad333</sys_id>
-        <sys_mod_count>29</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_name>poster_image</sys_name>
         <sys_package display_value="RaaS João Ricardo" source="x_1593175_raas">9126f12a83b2d2103cf0c4b6feaad393</sys_package>
         <sys_policy/>
         <sys_scope display_value="RaaS João Ricardo">9126f12a83b2d2103cf0c4b6feaad393</sys_scope>
         <sys_update_name>sp_widget_d88e06c4834392103cf0c4b6feaad333</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-08 13:33:59</sys_updated_on>
+        <sys_updated_on>2025-01-08 16:16:47</sys_updated_on>
         <template><![CDATA[<div id="poster_img_container">
-  <div id="styled_border">
      <img id="poster_img" src=""/>
-  </div>
 </div>]]></template>
     </sp_widget>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
