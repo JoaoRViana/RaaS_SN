@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>release_year</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-09 16:44:56</sys_created_on>
+        <sys_id>fe054db0834756103cf0c4b6feaad39a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>release_year</sys_name>
+        <sys_package display_value="RaaS João Ricardo" source="x_1593175_raas">9126f12a83b2d2103cf0c4b6feaad393</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS João Ricardo">9126f12a83b2d2103cf0c4b6feaad393</sys_scope>
+        <sys_update_name>sys_ui_policy_action_fe054db0834756103cf0c4b6feaad39a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-10 19:51:29</sys_updated_on>
+        <table>x_1593175_raas_media</table>
+        <ui_policy display_value="Show Release Date or Release Year">bcd409b0834756103cf0c4b6feaad3ec</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=fe054db0834756103cf0c4b6feaad39a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS João Ricardo">9126f12a83b2d2103cf0c4b6feaad393</application>
+        <file_path/>
+        <instance_id>23596efddb36f55002d91729139619f7</instance_id>
+        <instance_name>dev228991</instance_name>
+        <name>sys_ui_policy_action_fe054db0834756103cf0c4b6feaad39a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>release_year</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-09 16:44:56</sys_created_on><sys_id>fe054db0834756103cf0c4b6feaad39a</sys_id><sys_mod_count>2</sys_mod_count><sys_name>release_year</sys_name><sys_package display_value="RaaS João Ricardo" source="x_1593175_raas">9126f12a83b2d2103cf0c4b6feaad393</sys_package><sys_policy/><sys_scope display_value="RaaS João Ricardo">9126f12a83b2d2103cf0c4b6feaad393</sys_scope><sys_update_name>sys_ui_policy_action_fe054db0834756103cf0c4b6feaad39a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-10 19:51:29</sys_updated_on><table>x_1593175_raas_media</table><ui_policy display_value="Show Release Date or Release Year">bcd409b0834756103cf0c4b6feaad3ec</ui_policy><value/><value_action>ignore</value_action><visible>false</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=fe054db0834756103cf0c4b6feaad39a"/></record_update>]]></payload>
+        <payload_hash>535224848</payload_hash>
+        <record_name>release_year</record_name>
+        <reverted_from/>
+        <source>4cc930f383b212103cf0c4b6feaad34a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-10 19:51:29</sys_created_on>
+        <sys_id>f6797ac18343d6103cf0c4b6feaad3a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19451c5906c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-10 19:51:29</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>7e797ac11e43d6102d90afd52179f89f</update_guid>
+        <update_guid_history>7e797ac11e43d6102d90afd52179f89f:535224848,55797ac11b43d6105a6762c01535fc77:1673082359,c03501f0764756104e0e992802c05361:535224848</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-10 19:52:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>bcd0c005ffe84a27ab80822dae79aa11</sys_id>
+        <sys_metadata>fe054db0834756103cf0c4b6feaad39a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>release_year</sys_name>
+        <sys_package display_value="RaaS João Ricardo" source="x_1593175_raas">9126f12a83b2d2103cf0c4b6feaad393</sys_package>
+        <sys_parent display_value="Show Release Date or Release Year">bcd409b0834756103cf0c4b6feaad3ec</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="RaaS João Ricardo">9126f12a83b2d2103cf0c4b6feaad393</sys_scope>
+        <sys_scope_delete display_value="">229e1e61a2994cf09e48e283eb06d100</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_fe054db0834756103cf0c4b6feaad39a</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_fe054db0834756103cf0c4b6feaad39a">f6797ac18343d6103cf0c4b6feaad3a0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-10 19:52:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
