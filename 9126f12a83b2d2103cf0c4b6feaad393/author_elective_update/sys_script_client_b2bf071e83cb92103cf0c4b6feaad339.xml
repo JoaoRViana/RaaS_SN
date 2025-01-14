@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>integration_state</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Button Completed Disable</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (newValue === '') {
+        return;
+    }
+	var bttn = window.document.getElementById("media_completed");
+	bttn.innerText='jão'
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 18:42:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b2bf071e83cb92103cf0c4b6feaad339</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Button Completed Disable</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RaaS João Ricardo" source="x_1593175_raas">9126f12a83b2d2103cf0c4b6feaad393</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS João Ricardo">9126f12a83b2d2103cf0c4b6feaad393</sys_scope>
+        <sys_update_name>sys_script_client_b2bf071e83cb92103cf0c4b6feaad339</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 19:00:48</sys_updated_on>
+        <table>x_1593175_raas_media</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS João Ricardo">9126f12a83b2d2103cf0c4b6feaad393</application>
+        <file_path/>
+        <instance_id>23596efddb36f55002d91729139619f7</instance_id>
+        <instance_name>dev228991</instance_name>
+        <name>sys_script_client_b2bf071e83cb92103cf0c4b6feaad339</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;integration_state&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Button Completed Disable&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (newValue === '') {
+        return;
+    }
+	var bttn = window.document.getElementById("media_completed");
+	bttn.innerText='jão'
+}
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-14 18:42:07&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;b2bf071e83cb92103cf0c4b6feaad339&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;Button Completed Disable&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="RaaS João Ricardo" source="x_1593175_raas"&gt;9126f12a83b2d2103cf0c4b6feaad393&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="RaaS João Ricardo"&gt;9126f12a83b2d2103cf0c4b6feaad393&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_b2bf071e83cb92103cf0c4b6feaad339&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-14 19:00:48&lt;/sys_updated_on&gt;&lt;table&gt;x_1593175_raas_media&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1145554713</payload_hash>
+        <record_name>Button Completed Disable</record_name>
+        <reverted_from/>
+        <source>4cc930f383b212103cf0c4b6feaad34a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 19:00:48</sys_created_on>
+        <sys_id>0f345f52830f92103cf0c4b6feaad395</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194663097b40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 19:00:48</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>83345f52230f9210f3eb52a19fc0cd95</update_guid>
+        <update_guid_history>83345f52230f9210f3eb52a19fc0cd95:1145554713,33f35b12980f92100c9bf130339a11aa:596924283,c5631352620f9210b031df87dd9ee285:-1941610953,62435b12b40f9210148bbf549701251c:733964040,7c031bde99cb921004d7968ee085c01f:-956738379,93a21bdebccb9210debe08b77e387075:1444608668,27029f1eeecb92105c5a2b976b74ae3f:770214735,b7309fdae7cb92103e666d74f9c1b873:593410462,b7ff071e69cb92105f8bdcc399e011b3:-999323715,d9ff8fda1ccb921092877626eb053889:-1143074900</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 19:01:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>4f64384ac4f84408ae47a80468a63aa9</sys_id>
+        <sys_metadata>b2bf071e83cb92103cf0c4b6feaad339</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Button Completed Disable</sys_name>
+        <sys_package display_value="RaaS João Ricardo" source="x_1593175_raas">9126f12a83b2d2103cf0c4b6feaad393</sys_package>
+        <sys_parent display_value="Media">0f0aa936833616103cf0c4b6feaad345</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="RaaS João Ricardo">9126f12a83b2d2103cf0c4b6feaad393</sys_scope>
+        <sys_scope_delete display_value="">229e1e61a2994cf09e48e283eb06d100</sys_scope_delete>
+        <sys_update_name>sys_script_client_b2bf071e83cb92103cf0c4b6feaad339</sys_update_name>
+        <sys_update_version display_value="sys_script_client_b2bf071e83cb92103cf0c4b6feaad339">0f345f52830f92103cf0c4b6feaad395</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 19:01:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
