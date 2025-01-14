@@ -36,7 +36,7 @@
                 <element inactive_on_update="false" label="Draft" sequence="100" value="1"/>
             </choice>
         </element>
-        <element label="Genre" max_length="1024" name="genre" reference="x_1593175_raas_genre" type="glide_list"/>
+        <element label="Genre" max_length="4000" name="genre" reference="x_1593175_raas_genre" type="glide_list"/>
         <element label="Release year" max_length="4" name="release_year" type="string"/>
         <element label="Integration Error Message" max_length="250" name="integration_error_message" type="string"/>
     </element>
