@@ -32,7 +32,49 @@
         <order>100</order>
         <script><![CDATA[current.setValue('state','3');
 current.update();
-action.setRedirectURL(current);]]></script>
+
+var grMedia = new GlideRecord("x_1593175_raas_media");
+grMedia.addQuery("title",current.getValue("title"));
+grMedia.addQuery("release_year",current.getValue("release_year"));
+grMedia.addQuery("type",current.getValue("type"));
+grMedia.addQuery("sys_id","!=",current.getValue("sys_id"));
+grMedia.query();
+grMedia.addEncodedQuery("title="+current.getValue("title")+"^type="+current.getValue("type")+"^release_year="+current.getValue("release_year")+"^sys_id"+"!="+current.getValue("sys_id"));
+while(grMedia._next()){
+	grMedia.setValue("state","7");
+	grMedia.setValue("genre","");
+	grMedia.setValue("release_date","");
+	grMedia.setValue("category","");
+	grMedia.setValue("synopsis","");
+	grMedia.setValue("writers","");
+	grMedia.setValue("poster","");
+	grMedia.setValue("production","");
+	grMedia.setValue("website","");
+	grMedia.setValue("average_rating","0");
+	grMedia.setValue("metascore","0");
+	grMedia.setValue("imdb_rating","0");
+	grMedia.setValue("awards","");
+	grMedia.setValue("country","");
+	grMedia.setValue("language","");
+	grMedia.setValue("integration_state","1");
+	grMedia.setValue("integration_error_message","");
+
+	var grMediaActor = new GlideRecord("x_1593175_raas_m2m_actor_media");
+	grMediaActor.addEncodedQuery("x_1593175_raas_media="+ grMedia.getValue("sys_id"));
+	grMediaActor.query();
+	grMediaActor.deleteMultiple();
+
+	var grMediaDirector = new GlideRecord("x_1593175_raas_m2m_director_media");
+	grMediaDirector.addEncodedQuery("x_1593175_raas_media="+ grMedia.getValue("sys_id"));
+	grMediaDirector.query();
+	grMediaDirector.deleteMultiple();
+
+	grMedia.update();
+
+}
+
+action.setRedirectURL(current);
+]]></script>
         <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -43,7 +85,7 @@ action.setRedirectURL(current);]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0b0736da834b92103cf0c4b6feaad3a0</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_name>Completed</sys_name>
         <sys_overrides/>
         <sys_package display_value="RaaS João Ricardo" source="x_1593175_raas">9126f12a83b2d2103cf0c4b6feaad393</sys_package>
@@ -51,7 +93,7 @@ action.setRedirectURL(current);]]></script>
         <sys_scope display_value="RaaS João Ricardo">9126f12a83b2d2103cf0c4b6feaad393</sys_scope>
         <sys_update_name>sys_ui_action_0b0736da834b92103cf0c4b6feaad3a0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-14 20:28:20</sys_updated_on>
+        <sys_updated_on>2025-01-15 20:41:30</sys_updated_on>
         <table>x_1593175_raas_media</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
