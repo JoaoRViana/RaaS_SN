@@ -6,24 +6,24 @@
         <applies_to/>
         <condition/>
         <decision_type>allow</decision_type>
-        <description>Allow write for records in x_1593175_raas_m2m_actor_media, for users with role x_1593175_raas.administrator.</description>
+        <description>Allow write for records in x_1593175_raas_m2m_director_media, for users with role x_1593175_raas.administrator.</description>
         <local_or_existing>Local</local_or_existing>
-        <name>x_1593175_raas_m2m_actor_media</name>
-        <operation display_value="write">write</operation>
+        <name>x_1593175_raas_m2m_director_media</name>
+        <operation display_value="delete">delete</operation>
         <script/>
         <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-14 16:30:01</sys_created_on>
-        <sys_id>deb172d2834b92103cf0c4b6feaad306</sys_id>
-        <sys_mod_count>11</sys_mod_count>
-        <sys_name>x_1593175_raas_m2m_actor_media</sys_name>
+        <sys_created_on>2025-01-15 12:19:33</sys_created_on>
+        <sys_id>4bf14f22838fd2103cf0c4b6feaad3aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1593175_raas_m2m_director_media</sys_name>
         <sys_package display_value="RaaS João Ricardo" source="x_1593175_raas">9126f12a83b2d2103cf0c4b6feaad393</sys_package>
         <sys_policy/>
         <sys_scope display_value="RaaS João Ricardo">9126f12a83b2d2103cf0c4b6feaad393</sys_scope>
-        <sys_update_name>sys_security_acl_deb172d2834b92103cf0c4b6feaad306</sys_update_name>
+        <sys_update_name>sys_security_acl_4bf14f22838fd2103cf0c4b6feaad3aa</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-14 22:20:33</sys_updated_on>
+        <sys_updated_on>2025-01-15 12:19:33</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>

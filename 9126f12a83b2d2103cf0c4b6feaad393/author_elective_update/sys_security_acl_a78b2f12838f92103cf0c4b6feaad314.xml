@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to table="x_1593175_raas_media">state=1^EQ<item display_value="Draft" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </applies_to>
+        <condition/>
+        <decision_type>allow</decision_type>
+        <description/>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1593175_raas_media</name>
+        <operation display_value="edit_ci_relations">b7199572c0a8020400ee6d907c07d6cc</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 20:43:54</sys_created_on>
+        <sys_id>a78b2f12838f92103cf0c4b6feaad314</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1593175_raas_media</sys_name>
+        <sys_package display_value="RaaS João Ricardo" source="x_1593175_raas">9126f12a83b2d2103cf0c4b6feaad393</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS João Ricardo">9126f12a83b2d2103cf0c4b6feaad393</sys_scope>
+        <sys_update_name>sys_security_acl_a78b2f12838f92103cf0c4b6feaad314</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 20:43:54</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS João Ricardo">9126f12a83b2d2103cf0c4b6feaad393</application>
+        <file_path/>
+        <instance_id>23596efddb36f55002d91729139619f7</instance_id>
+        <instance_name>dev228991</instance_name>
+        <name>sys_security_acl_a78b2f12838f92103cf0c4b6feaad314</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to table="x_1593175_raas_media">state=1^EQ<item display_value="Draft" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="1"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></applies_to><condition/><decision_type>allow</decision_type><description/><local_or_existing>Local</local_or_existing><name>x_1593175_raas_media</name><operation display_value="edit_ci_relations">b7199572c0a8020400ee6d907c07d6cc</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-14 20:43:54</sys_created_on><sys_id>a78b2f12838f92103cf0c4b6feaad314</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1593175_raas_media</sys_name><sys_package display_value="RaaS João Ricardo" source="x_1593175_raas">9126f12a83b2d2103cf0c4b6feaad393</sys_package><sys_policy/><sys_scope display_value="RaaS João Ricardo">9126f12a83b2d2103cf0c4b6feaad393</sys_scope><sys_update_name>sys_security_acl_a78b2f12838f92103cf0c4b6feaad314</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-14 20:43:54</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>986069250</payload_hash>
+        <record_name>x_1593175_raas_media</record_name>
+        <reverted_from/>
+        <source>4cc930f383b212103cf0c4b6feaad34a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 20:43:54</sys_created_on>
+        <sys_id>59dbab12838f92103cf0c4b6feaad385</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194668efe9a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 20:43:54</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>5ddbab12618f9210fd9fc648651ad984</update_guid>
+        <update_guid_history>5ddbab12618f9210fd9fc648651ad984:986069250</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-15 13:29:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>1636933c59254dc9a7807113561bd671</sys_id>
+        <sys_metadata>a78b2f12838f92103cf0c4b6feaad314</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1593175_raas_media</sys_name>
+        <sys_package display_value="RaaS João Ricardo" source="x_1593175_raas">9126f12a83b2d2103cf0c4b6feaad393</sys_package>
+        <sys_parent display_value="x_1593175_raas_media">870aa936833616103cf0c4b6feaad347</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="RaaS João Ricardo">9126f12a83b2d2103cf0c4b6feaad393</sys_scope>
+        <sys_scope_delete display_value="">229e1e61a2994cf09e48e283eb06d100</sys_scope_delete>
+        <sys_update_name>sys_security_acl_a78b2f12838f92103cf0c4b6feaad314</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_a78b2f12838f92103cf0c4b6feaad314">59dbab12838f92103cf0c4b6feaad385</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-15 13:29:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

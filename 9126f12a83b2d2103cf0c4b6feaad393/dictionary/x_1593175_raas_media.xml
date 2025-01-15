@@ -32,6 +32,7 @@
         <element label="Synopsis" max_length="4000" name="synopsis" type="string"/>
         <element choice="1" default="1" label="State" max_length="40" name="state" read_only="true" type="choice">
             <choice>
+                <element inactive_on_update="false" label="Already in database" sequence="150" value="7"/>
                 <element inactive_on_update="false" label="Completed" sequence="200" value="3"/>
                 <element inactive_on_update="false" label="Draft" sequence="100" value="1"/>
             </choice>
